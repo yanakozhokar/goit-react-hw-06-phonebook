@@ -59,10 +59,7 @@ const App = () => {
         <ContactForm addContact={addContact} />
         <h2>Contacts</h2> */}
         <Filter />
-        {/* <ContactList
-          filteredContacts={filterHandler()}
-          deleteContact={deleteContact}
-        /> */}
+        <ContactList />
       </div>
     </Container>
   );
